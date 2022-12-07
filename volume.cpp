@@ -12,9 +12,9 @@ float CylinderVolumeCalculation(int radius, int height) {
     float volume;
 
     // Process
-    if (radius < 0 || height < 0) 
+    if (radius < 0 || height < 0)
         return -1;
-    else 
+    else
         volume = M_PI * (radius * radius) * height;
     return volume;
 }
